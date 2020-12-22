@@ -21,6 +21,7 @@
     },
     "homepage": "https://github.com/ArjunMenon-96/Assignment-Propine#readme",
     "dependencies": {
-        "csv-parser": "^3.0.0"
+        "csv-parser": "^3.0.0",
+        "js-hcl-parser": "^1.0.1"
     }
 }
