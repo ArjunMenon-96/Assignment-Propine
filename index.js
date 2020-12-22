@@ -1,11 +1,11 @@
+const csv = require('csv-parser');
 const fs = require('fs');
 
-module.exports = html5
-
-function html5() {
-
-    const html5 = fs.readFileSync(`${__dirname}/index.html`)
-    fs.writeFileSync(`${process.cwd()}/index.html`, html5)
-}
-
-html5()
+fs.createReadStream('passengers.csv')
+    .pipe(csv())
+    .on('data', (row) => {
+        console.log(row);
+    })
+    .on('end', () => {
+        console.log('CSV file successfully processed');
+    });

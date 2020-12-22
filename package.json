@@ -19,5 +19,8 @@
     "bugs": {
         "url": "https://github.com/ArjunMenon-96/Assignment-Propine/issues"
     },
-    "homepage": "https://github.com/ArjunMenon-96/Assignment-Propine#readme"
+    "homepage": "https://github.com/ArjunMenon-96/Assignment-Propine#readme",
+    "dependencies": {
+        "csv-parser": "^3.0.0"
+    }
 }
