@@ -27,5 +27,5 @@ Explaination
 Author:
 Arjun Menon
 
-Acknowledgments
+Acknowledgment:
 Hat tip to anyone whose code was used as inspiration and best practice etc
