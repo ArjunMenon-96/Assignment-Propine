@@ -1,4 +1,4 @@
-# Assignment-Propine
+#Lift Plan CLI app
 
 Travel plan for lifts. This repository contains a Node.js command line program that prints out the travel plan of the lift according to the states of the lift and passengers.
 
